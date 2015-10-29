@@ -1,0 +1,12 @@
+{
+  "name": "ngMeetup",
+  "version": "1.0.0",
+  "description": "Create your own Meetup groups app!",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.8.7",
+    "md5": "^2.0.0",
+    "request": "^2.62.0",
+    "underscore": "^1.8.3"
+  }
+}
