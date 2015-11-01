@@ -1,12 +1,7 @@
-var route = require('./config/route.js');
-var io = require('./config/server.js');
-var f = require('./config/functions.js');
-var request = require('request');
+var app = require('./app'),
+    http = require('http').Server(app);
 
+require('./meetup');
 
-require('./features/meetup/event.js');
-require('./features/meetup/group.js');
-
-route.get('/', function (req, res) {
-    res.json({'status': 'running'});
-});
+http.listen(8000);
+console.log("Server running at http://127.0.0.1:8000/");
