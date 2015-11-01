@@ -1,7 +1,7 @@
 var config = {
     urlname: "meetup_urlname",
-    key: "q428pbfagl9l7qcicphduqr1f0",
-    secret: "ibbb8fuie2per4onj8h82bbnhd"
+    key: "meetup_oauth_key",
+    secret: "meetup_oauth_secret"
 };
 
 module.exports = config;
